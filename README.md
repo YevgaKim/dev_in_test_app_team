@@ -2,7 +2,12 @@
 ### P.S Не знаю правильно ли выполнил, но сделал как сам считал нужным
 ### ЛОГИ ДЛЯ ПРОВЕРКИ
 1 - pytest tests/test_page.py::TestPage -v -s -p no:warnings - тест базовых действий 
+
+
 2 - pytest tests/login/test_login.py::test_user_login -v -s -p no:warnings - тест авторизации
+
+
+
 3 - pytest tests/SideBar/test_sidebar.py -v -s -p no:warnings - тест SideBar
 
 
